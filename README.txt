@@ -1,4 +1,4 @@
-Project mata Kuliah Perancangan Website. Rancangan Website Cek Wisata
+Project Mata Kuliah Perancangan Website. Rancangan Website Cek Wisata
 
 Nama Anggota :
 Angga Bagus Prasetyo (192410103010)
