@@ -69,7 +69,7 @@
     margin-left: 13px;
 }
 
-.konten form input[type=submit]{
+.konten form button{
     width: 110px;
     height: 30px;
     border-radius: 100px;
