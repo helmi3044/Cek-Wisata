@@ -5,6 +5,6 @@ function daftar() {
   if (daftar) {
     window.location = "index.html"
   } else {
-    window.location = "PROJEK/daftar.html"
+    window.location = "daftar.html"
   }
 }
