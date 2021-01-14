@@ -64,7 +64,7 @@
     margin-left: 170px;
 }
 
-.konten form input[type=submit]:hover {
+.konten form button:hover {
     border: 1px solid #3ba9ca;
     background-color: #3ba9ca;
     color: white;
