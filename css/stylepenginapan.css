@@ -21,7 +21,10 @@ header img{
     height: 50px;
 }
 
-
+.navigasi_kiri{
+    margin-top: 20px;
+    margin-left: -32%;
+}
 
 .navigasi_kiri ul{
     list-style-type: none;
