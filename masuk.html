@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masuk Cek Wisata</title>
     <link rel="stylesheet" href="css/stylemasuk.css">
-    <script src="Cek-Wisata/js/masuk.js"></script>
 </head>
 <body>
     <div class="logo">
@@ -25,6 +24,29 @@
                 </div>
             </form>
             <button type="button" name="lupa" onclick="lupa()">Lupa Password</button>
-        </div>    
+        </div>
+        
+        <script>
+            function terimainput() {
+                var email = document.forms['masuk']['email'].value;
+                var password = document.forms['masuk']['password'].value;
+
+                if (!email || !password) {
+                    alert("Mohon lengkapi data yang ada !");
+                } else if (email && password) {
+                    window.location = "index.html"
+                }
+            }
+
+            function lupa() {
+                var lupa = confirm("Apakah anda yakin lupa password anda?")
+
+                if (lupa) {
+                    window.location = "hubungikami.html"
+                } else {
+                    window.location = "daftar.html"
+                }
+            }
+        </script>
 </body>
 </html>
