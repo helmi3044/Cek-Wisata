@@ -175,16 +175,37 @@ section ul {
     list-style-type: none;
 }
 
+.wisata1 img ul {
+    display: flex;
+}
+
 .wisata1 img{
     height: 180px;
     float: left;
-    margin: 10px 30px 30px 30px;
+    margin: 30px;
+}
+
+.wisata2 img ul {
+    display: flex;
 }
 
 .wisata2 img{
     height: 180px;
     float: left;
-    margin: 10px 30px 30px 30px;
+    margin: 30px;
+}
+
+/* apabila ukuran hp */
+@media screen and (max-width: 550px) {
+    .wisata1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .wisata2 {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* footer */
@@ -193,6 +214,7 @@ footer {
 }
 
 footer h3 {
+    margin-left: 150px;
     color: white;
     font-weight: bolder;
 }
@@ -202,6 +224,7 @@ footer ul {
 }
 
 footer a{
+    margin-left: 150px;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -214,19 +237,17 @@ footer p {
 }
 
 .footer {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.beranda {
-    float: left;
-    margin-left: 100px;
-    margin-right: 300px;
-    margin-bottom: 100px;
-}
-
-.akun {
-    float: left;
-    margin-left: 50px;
-    margin-right: 400px;
-    margin-bottom: 100px;
+.pilihan {
+    width: 400px;
+    height: 600x;
+    margin: 5px;
+    padding-bottom: 50px;
 }
