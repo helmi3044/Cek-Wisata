@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masuk Cek Wisata</title>
     <link rel="stylesheet" href="css/stylemasuk.css">
+    <script src="js/masuk.js"></script>
 </head>
 <body>
     <div class="logo">
-		<img src="img/Logo.png" alt="">
-	</div>
+	<img src="img/Logo.png" alt="">
+    </div>
     <div class="konten">
         <h2>Masuk Akun Anda</h2>
-            <form method="GET" action="login.php">
+            <form method="POST" action="#" name="masuk" id="masuk">
                 <div>
-                    <input type="email" name="email" placeholder="Alamat Email" required>
+                    <input type="email" id="email" name="email" placeholder="Alamat Email" required>
                 </div>
                 <div>
-                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
                 </div>
                 <div>
-                    <input type="submit" value="Masuk">
+                    <button type="button" name="masuk" onclick="terimainput()">Masuk</button>
                 </div>
-                <input type="submit" value="Lupa Password">
             </form>
+            <button type="button" name="lupa" onclick="lupa()">Lupa Password</button>
         </div>    
 </body>
 </html>
