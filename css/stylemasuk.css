@@ -46,7 +46,7 @@
     margin-left: 15px;
 }
 
-.konten form input[value="Masuk"]{
+.konten form button[name="masuk"]{
     width: 110px;
     height: 30px;
     border-radius: 100px;
@@ -57,7 +57,7 @@
     margin-left: 115px;
 }
 
-.konten form input[value="Lupa Password"]{
+.konten button[name="lupa"]{
     width: 110px;
     height: 30px;
     border-radius: 100px;
