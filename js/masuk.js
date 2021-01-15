@@ -9,7 +9,7 @@ function terimainput() {
   }
 }
 
-function lupa() {\
+function lupa() {
   var lupa = confirm("Apakah anda yakin lupa password anda?")
 
   if (lupa) {
