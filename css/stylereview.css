@@ -228,6 +228,5 @@ footer p {
     .isi {
         display: flex;
         flex-direction: column;
-        background-color: #65D7FA;
     }
 }
