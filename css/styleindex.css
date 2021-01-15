@@ -8,7 +8,11 @@ body{
     background-color: #f4f4f4;
 }
 
-
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
 
 /* header dan navigasi */
 header {
